@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+	<head>
+		<title>Nebula Tech - Soluções tecnológicas, aplicativos e websites</title>
+		<meta charset='utf-8'/>
+    	<meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'/>
+    	<meta name='description' content='A Nebula cria websites, aplicativos e sistemas que podem ajudar sua empresa a decolar!'/>
+		<link rel="canonical" href="/"/>
+		<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Josefin+Sans'>
+		<link rel='stylesheet' href='/static/css/reset.min.css'>
+		<link rel='stylesheet' href='/static/css/index.min.css'>
+		<link rel='shortcut icon' type='image/png' href='/static/img/favicon.png'/>
+	</head>
+	<body>
+		<header id='topo'>
+			<nav>
+				<div class='logo-nav'>
+					<a href='/' alt='Nebula Tech' title='Nebula Tech'></a>
+				</div>
+				<div class='logo-nav-small'>
+					<a href='/' alt='Nebula Tech' title='Nebula Tech'></a>
+				</div>
+				<ul>
+					<li><a href='#topo' title='topo'><span></span><p>Home</p></a></li>
+					<li><a href='#sobre' title='sobre'><span></span><p>Sobre a Nebula</p></a></li>
+					<li><a href='#contatos' title='contato'><span></span><p>Contato</p></a></li>
+				</ul>
+				<div class='mask'></div>
+			</nav>
+			<div>
+				<div class='logo'>
+					<a href='/' alt='Nebula Tech' title='Nebula Tech'></a>
+				</div>
+				<button type='button' class='nav-btn' onclick='openMenu()'><span/></button>
+				<h1>A Nebula cria sistemas web, aplicativos e websites de outro mundo!</h1>
+				<a class='scr-down' id='scr-down' href='#sobre' title='rolar para baixo'></a>
+				<img class='planet-01' src='/static/img/planet-01.svg' alt='Planeta verde e rosa'/>
+				<img class='planet-04' src='/static/img/planet-04.svg' alt='Planeta verde'/>
+				<div class='star' id='s1'></div>
+				<div class='star' id='s2'></div>
+				<div class='star' id='s3'></div>
+				<div class='star' id='s4'></div>
+				<div class='star' id='s5'></div>
+				<div class='star' id='s6'></div>
+				<div class='star' id='s7'></div>
+				<div class='star' id='s8'></div>
+			</div>
+		</header>
+		<main>
+			<div id='sobre'>
+				<img class='planet-02' src='/static/img/planet-02.svg' alt='Planeta azul'/>
+				<img class='planet-03' src='/static/img/planet-03.svg' alt='Planeta marrom'/>
+				<img class='planet-05' src='/static/img/planet-05.svg' alt='Planeta azul e rosa'/>
+				<div class='star' id='s9'></div>
+				<div class='star' id='s10'></div>
+				<div class='star' id='s11'></div>
+				<div class='star' id='s12'></div>
+				<div class='star' id='s13'></div>
+				<div class='star' id='s14'></div>
+				<div class='star' id='s15'></div>
+				<div class='star' id='s16'></div>
+				<div class='sobre-content'>
+					<h2 class='even'>
+						Com projetos voltados à internet, trazemos opções diferenciadas de acordo com a necessidade do cliente. Pegue carona neste foguete e traga seus projetos para nós ou converse conosco e veja o que podemos oferecer:
+					</h2>
+					<ul>
+						<li><div class='wrap'><div class='icons'/></div></div><h2>Websites</h2><p>Criamos sites profissionais exclusivos, com designs responsivos e otimizados para as pesquisas no Google.</p></li>
+						<li><div class='wrap'><div class='icons'/></div></div><h2>Sistemas web</h2><p>Se precisar de um site com sistema integrado, podemos atendê-lo. Traga sua proposta.</p></li>
+						<li><div class='wrap'><div class='icons'/></div></div><h2>Apps Android e iOS</h2><p>Suas ideias também podem ser mobile, o universo é o limite!</p></li>
+						<li><div class='wrap'><div class='icons'/></div></div><h2>Branding</h2><p>Criamos sua marca e tudo o que precisar para dar um visual para sua empresa.</p></li>
+					</ul>
+				</div>
+			</div>
+		<div class='clouds'></div>
+		</main>
+		<aside id='contatos'>
+			<h3>Entre em contato com nossa base!</h3>
+			<div><img src='/static/img/whatsapp.svg' alt='Logotipo do Whatsapp'/><p>(48) 98855-3707</p></div>
+			<h3>Ou nos envie um e-mail.</h3>
+		</aside>
+		<svg id="bigTriangleShadow" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+			<path id="trianglePath1" d="M0 0 L50 100 L100 0 Z"></path>
+			<path id="trianglePath2" d="M50 100 L100 40 L100 0 Z"></path>
+		</svg>
+		<footer>
+			<div id='contato'>
+				<div class='doggo-box'>
+					<img class='doggo-01' src='/static/img/doggo1.png' alt='Cãozinho astronauta shiba'/>
+					<img class='doggo-02' src='/static/img/doggo2.png' alt='Cãozinho astronauta marrom'/>
+					<img class='doggo-03' src='/static/img/doggo3.png' alt='Cãozinho astronauta dashround'/>
+				</div>
+				<div class='star' id='s17'></div>
+				<div class='star' id='s18'></div>
+				<div class='star' id='s19'></div>
+				<div class='contact-land'>
+					<div class='contato displayBox'>
+						<input id='name' type='text' placeholder='Nome'>
+						<input id='email' type='email' placeholder='E-mail'>
+						<textarea id='message' rows='3' placeholder='Digite sua mensagem...'></textarea>
+						<button id='sendbtn' type='submit' onclick='sendEmail()'>Enviar</button>
+						<span id='erro' class='none'></span>
+					</div>
+					<div class='email-sended'>
+						<img class='mail' src='/static/img/mail.svg' alt='envelope'>
+						<img class='ufo' src='/static/img/ufo.png' alt='disco voador'>
+						<img class='beam' src='/static/img/beam.png' alt='raio'>
+						<p>Já partiu o disco voador! Os viajantes estão trazendo seu e-mail para nossa base, em breve entraremos em contato. Fique atento!</p>
+						<button onclick='newEmail()'>Enviar novo e-mail</button>
+					</div>
+					<div class='email-failed'>
+						<p>Nossos entregadores não conseguiram enviar o seu e-mail, tente novamente clicando no botão abaixo ou nos envie sua mensagem diretamente para:</p>
+						<p>contato@nebtech.com.br</p>
+						<button onclick='retryEmail()'>Tente novamente</button>
+					</div>
+					<div class='email-travel'>
+						<p>Enviando...</p>
+						<div class='loader'></div>
+					</div>
+					<div class='footer-info'>
+						<p>Nebula Tech 2019 ©. Todos os direitos reservados.</p>
+						<img src='/static/img/logo3.svg' alt='Nebula Tech' alt='Logotipo Nebtech'/>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script type='text/javascript' src='/static/js/smooth-scroll.polyfills.min.js'></script>
+		<script type='text/javascript' src='/static/js/scripts.min.js' async></script>
+		<script>
+			var scroll = new SmoothScroll('a[href*="#"]');
+		</script>
+	</body>
+</html>
